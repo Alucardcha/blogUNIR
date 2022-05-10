@@ -89,9 +89,9 @@ body {
 }
 
 .info .regresar {
-    margin: 0px 0px 25px 25px; 
+    flex-direction: column;
+    margin: 25px 0px 25px 0px; 
     background-color: var(--divider-color);
-    width: 100px;
 }
 
 .info .regresar a {
@@ -106,8 +106,8 @@ body {
 
 .info .section {
     display: flex;
-    flex-direction: colum;
-    width: 60%;
+    flex-direction: column;
+    width: 100%;
 }
 
 .info .section .article {
