@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Luis A Beltran UNIR</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+    <header class="encabezado">
+        <div class="banner">
+            <div class="titulo" id="especial">
+                <h3>Blog universitario</h3>
+                <h2>Stándares usados en desarrollo Web</h2>
+            </div>
+            <div class="logo">
+                <img src="img/html5css.png" alt="logo html">
+            </div>
+        </div>
+        <nav class="nav">  
+            <a href="#">Inicio</a>
+            <a href="entradas.html">Entradas Web</a>
+            <a href="acerca de.html">Acerca de</a>          
+        </nav>
+    </header>
+    <main class="info">
+        <section class="section">
+            <article class="article">
+                <h3>¿Es HTML un lengüaje de programación?</h3>
+                <div class="preview">
+                    <p>HTML es un lenguaje de marcas de Hipertexto, así es el componente más básico de la Web.
+                        Define el significado y la estructura del contenido web, es decir, que se puede crear el
+                        esqueleto de una página web a través de etiquetas.</p>
+                    <img src="img/html.png" alt="html">
+                </div>
+                <a href="#">Ver mas...</a>
+            </article>
+            <article class="article">
+                <h3>Ventajas y desventajas de Java</h3>
+                <div class="preview">
+                    <p>Al igual que muchos programas, el lenguaje Java posee algunas limitaciones en su
+                       sistema. Sin embargo, es útil para realizar ciertas labores que ningún otro lenguaje
+                       hace. Ahora, su importancia se ha extendido cada vez más para sectores como
+                       el Internet y la informática. 
+                    </p>
+                    <img src="img/java.png" alt="java">
+                </div>
+                <a href="#">Ver mas...</a>
+            </article>
+        </section>
+        <aside class="aside">
+            <h2>Únete a nuestro blog</h2>
+            <form action="">
+                <label for="nombre">
+                    <span>Ingrese su nombre: </span>
+                    <input type="text" id="nombre" placeholder="Tu nombre" required>
+                </label><br>
+                <label for="apellido">
+                    <span>Ingrese su apellido: </span>
+                    <input type="text" id="apellido" placeholder="Tu apellido" required>
+                </label><br>
+                <label for="nacimiento">
+                    <span>Ingrese fecha de nacimiento: </span>
+                    <input type="date" id="nacimiento" placeholder="Tu fecha de nacimiento" required>
+                </label><br>
+                <label for="género">
+                    <span>Ingrese su género: </span>
+                    <input type="text" id="genero" placeholder="Tu género" required>
+                </label><br>
+                <label for="correo">
+                    <span>Ingrese su correo: </span>
+                    <input type="email" id="nombre" placeholder="Tu correo electrónico" required>
+                </label><br>
+                <input class="btn" type="submit" value="Enviar">
+            </form>
+        </aside>
+    </main>
+    <footer class="footer">
+        <p>contáctame</p>
+        <p>Número móvil (+57) 3502478655</p>
+        <p>Correo: luisalejandro.beltran492@comunidadunir.net</p>
+    </footer>
+</body>
+</html>
